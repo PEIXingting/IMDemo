@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4152</color>
+    <color name="colorPrimaryTransparent">#66FF4152</color>
+    <color name="colorPrimaryDark">#DADCE0</color>
+    <color name="colorAccent">#E0E0E0</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorChatBackground">#EDEDED</color>
+    <color name="colorGreen">#95EC69</color>
+    <color name="colorBackground">#F7F7F7</color>
+    <color name="colorTime">#888888</color>
+    <color name="colorLocation">#586B95</color>
+    <color name="colorMenuBackground">#FF8C8E</color>
+    <color name="colorAvatarBackground">#28FF4152</color>
+
+</resources>

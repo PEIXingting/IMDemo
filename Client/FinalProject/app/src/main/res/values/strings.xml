@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="app_name_1">Group 5</string>
+    <string name="login_hint_username">Username</string>
+    <string name="login_null_username">Please Enter Username</string>
+    <string name="register_null_username">Please Enter Username</string>
+    <string name="login_null_password">Please Enter Password</string>
+    <string name="register_null_password">Please Enter Password</string>
+    <string name="register_hint_username">Username</string>
+    <string name="login_hint_password">Password</string>
+    <string name="register_hint_password">Password</string>
+    <string name="login_button_login">Login</string>
+    <string name="login_button_register">Register</string>
+    <string name="register_button_submit">Submit</string>
+    <string name="register_button_cancel">Cancel</string>
+    <string name="register_title">Register</string>
+    <string name="login_error_password">Password Wrong</string>
+    <string name="register_error_username">Username Already Exists</string>
+    <string name="chatrooms_bar_name">Group Chats</string>
+    <string name="icon_add">New Group</string>
+    <string name="icon_add_circle_outline">add_circle_outline</string>
+    <string name="icon_group_add">Join Group</string>
+    <string name="more">more</string>
+    <string name="exit">Log Out</string>
+    <string name="join_chatroom_title">Join Chatroom</string>
+    <string name="create_chatroom_title">Create Chatroom</string>
+    <string name="hint_chatroom_name">Chatroom Name</string>
+    <string name="hint_chatroom_password">Password</string>
+    <string name="join_button">Join</string>
+    <string name="create_button">Create</string>
+    <string name="null_chatroom_name">Please Enter Chatroom Name</string>
+    <string name="exist_chatroom_name">Chatroom Already Exists</string>
+    <string name="not_exist_chatroom_name">Chatroom Does Not Exist</string>
+    <string name="not_exist_user_name">Username Does Not Exist</string>
+    <string name="null_chatroom_password">Please Enter Chatroom Password</string>
+    <string name="wrong_chatroom_password">Password Wrong</string>
+    <string name="editText_hint">Please input your messages</string>
+    <string name="send_description">Send</string>
+    <string name="avatar_description">Avatar</string>
+    <string name="avatar_text">NAME</string>
+
+    <string name="add_location_description">Add Location</string>
+
+
+</resources>

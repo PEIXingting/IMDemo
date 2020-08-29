@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_circle_outline"
+        android:icon="@drawable/baseline_add_circle_outline_24"
+        android:title="@string/icon_add_circle_outline"
+
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/add"
+                android:icon="@drawable/baseline_add_24"
+                android:title="@string/icon_add"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/group_add"
+                android:icon="@drawable/baseline_group_add_24"
+                android:title="@string/icon_group_add"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title="@string/more"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="@string/exit"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/avatar_location_send"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/box_avatar"
+        android:focusable="false"
+        android:contentDescription="@string/avatar_description"/>
+    <TextView
+        android:id="@+id/avatar_location_send_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/avatar_location_send"
+        android:layout_alignBottom="@id/avatar_location_send"
+        android:layout_alignStart="@id/avatar_location_send"
+        android:layout_alignEnd="@id/avatar_location_send"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/avatar_text"
+        android:textSize="8sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/text_location_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        android:gravity="start|center"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/box_send"
+        android:drawableStart="@drawable/baseline_person_pin_circle_24"
+        android:layout_toStartOf="@id/avatar_location_send"
+        android:clickable="true"
+        android:focusable="true"
+        android:lineSpacingExtra="2dp"
+        android:text="Location"
+        android:textSize="14sp"
+        android:textColor="@color/colorLocation"/>
+
+    <TextView
+        android:id="@+id/time_location_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_location_send"
+        android:layout_marginStart="5dp"
+        android:layout_toStartOf="@id/avatar_location_send"
+        android:gravity="end|center"
+        android:lineSpacingExtra="2dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="1dp"
+        android:text="MM-DD HH:MM"
+        android:textSize="8sp"
+        android:textColor="@color/colorTime"/>
+
+</RelativeLayout>
